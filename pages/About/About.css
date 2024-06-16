@@ -1,0 +1,50 @@
+
+
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 1px solid hsl(0, 0%, 87%); */
+    border: 1px solid #06d9ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    
+}
+
+.about-me-container h2 {
+    margin-bottom: 10px;
+    color: whitesmoke;
+    
+ }
+
+ .about-me-container p {
+
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 1.2;
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 55px;
+ }
+
+.image {
+    height: 250px;
+    width: 250px;
+    padding-bottom: 25px;
+    transform: rotate(325deg);
+
+}
+
+.weddingImage {
+    transform: rotate(325deg);
+}
+
+/* Reset the transform for other images with the "image" class */
+.image:not(.weddingImage) {
+    transform: none;
+}

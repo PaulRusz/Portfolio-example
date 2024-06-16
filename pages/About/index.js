@@ -1,6 +1,8 @@
-export default function AboutMe({}) {
+import React from 'react';
+import "./About.css"
 
-const AboutMe = () => {
+export default function AboutMe() {
+    return (
 
     <div className="about-me-container">
 
@@ -46,7 +48,6 @@ const AboutMe = () => {
           hesitate to reach out if you'd like to learn more.
         </p>
       </div>
-
-}
+    )
 }
 
