@@ -1,10 +1,12 @@
 import React from 'react';
-import "./About.css"
+import Navbar from '../../components/Navbar';
 
 export default function AboutMe() {
     return (
 
     <div className="about-me-container">
+
+      <Navbar />
 
         <h1>A bit about me: </h1>
 
