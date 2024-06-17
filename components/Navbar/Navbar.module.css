@@ -1,0 +1,88 @@
+
+
+.navbar {
+    background: #003039; 
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.logo {
+    color: white;
+    font-size: 3rem; 
+    font-weight: bolder; 
+    margin-right: auto;
+    margin-left: 10px; 
+    padding-left: 10px;
+    padding-right: 90px;
+}
+
+.links {
+    width: 130px;
+    flex: 1; /* Allow the links to take up the remaining space */
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+    font-weight: 300;
+}
+
+.navbar a {
+    color: white;
+    font-size: 1.3rem;
+    margin: 5px;
+    line-height: 3;
+    text-decoration: none;
+    border-radius: 10px; /* Add border radius for smoother edges */
+    transition: color 0.3s, background-color 0.3s; /* smooth color and background color transition */
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar a:hover {
+    color: black; 
+    background-color: #99efff;
+}
+
+
+.hamburgerMenu {
+    display: none; /* Hide the hamburger menu button by default */
+}
+
+@media (max-width: 768px) {
+    .hamburgerMenu {
+        display: block; /* Show the hamburger menu button on smaller screens */
+        font-size: 1.5rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .links.show {
+        display: flex; /* Show the links when the menu is toggled */
+    }
+
+    .links {
+        display: none; /* Hide the links by default on smaller screens */
+        flex-direction: column; /* Display the links vertically on smaller screens */
+        position: relative;
+        top: 70px; /* Adjust the top position to align with the navbar */
+        background: transparent; /* Set background color for the dropdown menu */
+        width: 50%;
+        text-align: center;
+        overflow-x: visible;
+        border-radius: 20%;
+    }
+
+    .links a {
+        display: block;
+    }
+}

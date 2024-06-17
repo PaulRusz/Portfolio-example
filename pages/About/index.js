@@ -1,16 +1,19 @@
+import styles from './About.module.scss'
 import React from 'react';
-import Navbar from '../../components/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
 
 export default function AboutMe() {
     return (
 
-    <div className="about-me-container">
+      <div>
 
-      <Navbar />
+      <Navbar/>
+
+    <div className={styles.aboutMeContainer}>
 
         <h1>A bit about me: </h1>
 
-        <div className="divider"></div>
+        <div className={styles.divider}></div>
 
 
         <p>
@@ -49,6 +52,8 @@ export default function AboutMe() {
           I'm sure there's much more to me than what's listed here, so don't
           hesitate to reach out if you'd like to learn more.
         </p>
+      </div>
+
       </div>
     )
 }
