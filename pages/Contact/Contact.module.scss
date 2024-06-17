@@ -1,0 +1,115 @@
+
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #06d9ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0)
+}
+
+.contactContainer p {
+    font-size: 20px;
+}
+
+.contactForm { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0)
+}
+
+.contactForm p {
+    font-size: 35px;
+}
+
+.name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 150px;
+    border-radius: 50px;
+}
+
+.name::placeholder {
+    text-align: center;
+}
+
+.email {
+    margin-bottom: 10px;
+    height: 20px;
+    width: 40%;
+    border-radius: 50px;
+}
+
+.email::placeholder {
+    text-align: center;
+}
+
+.message {
+    margin-bottom: 10px;
+    height: 150px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.message::placeholder {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.button {
+    background-color: #06d9ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 150px;
+
+}
+
+.button:hover {
+    color: black;
+    background-color: #00badc;
+}
+
+.messageSent {
+    color: gold;
+    font-size: 4.2em;
+}
+
+/* allows the text to begin later in the text boxes */
+.textInput {
+input[type="text"], textarea {
+    padding-left: 10px;
+}
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 75px;
+    box-shadow: 0 0 10px rgba(0, 0, 0)
+}
+
+.linkedIn {
+    height: 20px;
+    width: 20px;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 5px;
+}

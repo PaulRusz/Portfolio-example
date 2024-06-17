@@ -7,8 +7,6 @@ export default function AboutMe() {
 
       <div>
 
-      <Navbar/>
-
     <div className={styles.aboutMeContainer}>
 
         <h1>A bit about me: </h1>
