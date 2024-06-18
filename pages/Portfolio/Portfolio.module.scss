@@ -1,0 +1,23 @@
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #06d9ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+}
+
+.portfolio p {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.divider2 {
+    width: 50%;
+    height: 1px;
+    background-color: #06d9ff;
+    margin: 20px 0;
+}
