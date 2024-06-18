@@ -12,7 +12,9 @@ export default function Navbar({ children }) {
     
     <nav className={styles.navbar}>
     <div>
-        <p className={styles.logo}> PR </p>
+        <Link href="/">
+            <p className={ `{styles.logo styles.logoButton} `} > PR </p>
+        </Link>
       </div>
 
       <button className={styles.hamburgerMenu} onClick={() => setShowMenu(!showMenu)}>
