@@ -8,7 +8,6 @@ export default function Home () {
     <div>
          <Navbar />
     <div></div>
-    <About />
 
     </div>
   )

@@ -26,6 +26,7 @@ export default function AboutMe() {
       animate={{ opacity: 1, transition: { duration: 1 } }}
       exit={{ opacity: 0 }}
       >
+        
     <Navbar />
 
     <div className={styles.aboutMeContainer}>
