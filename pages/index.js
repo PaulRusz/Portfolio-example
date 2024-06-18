@@ -7,7 +7,7 @@ export default function Home () {
   return (
     <div>
          <Navbar />
-    <div>Home</div>
+    <div></div>
     <About />
 
     </div>

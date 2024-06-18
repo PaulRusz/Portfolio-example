@@ -28,6 +28,8 @@
     display: flex;
     justify-content: center; /* Center the links horizontally */
     font-weight: 300;
+    list-style-type: none;
+    padding: 0;
 }
 
 .navbar a {
@@ -68,6 +70,7 @@
 
     .links.show {
         display: flex; /* Show the links when the menu is toggled */
+        flex-direction: column;
     }
 
     .links {

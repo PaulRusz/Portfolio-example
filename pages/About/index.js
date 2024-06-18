@@ -1,13 +1,38 @@
 import styles from './About.module.scss'
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
+import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
+
 
 export default function AboutMe() {
-    return (
 
-      <div>
+    const [currentImage, setCurrentImage] = useState(null);
+  
+    useEffect(() => {
+      const images = ['/Monaco.png', '/wedding.png']
+      const randomIndex = Math.floor(Math.random() * images.length);
+      setCurrentImage(images[randomIndex]);
+    });
+
+
+
+    return (
+    
+      // Code for 'fade in' transition
+      <motion.div
+      className="page1"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 1 } }}
+      exit={{ opacity: 0 }}
+      >
+    <Navbar />
 
     <div className={styles.aboutMeContainer}>
+
+    {currentImage && (
+      <img src={currentImage} alt="Random Image" className={styles.image} />
+      )}
 
         <h1>A bit about me: </h1>
 
@@ -51,8 +76,5 @@ export default function AboutMe() {
           hesitate to reach out if you'd like to learn more.
         </p>
       </div>
-
-      </div>
-    )
-}
-
+      </motion.div>
+      )}

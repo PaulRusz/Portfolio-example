@@ -6,6 +6,8 @@ import { useState } from 'react';
 
 export default function Contact() {
 
+    const linkedInImage = '/linkedin.png'
+
             const [formData, setFormData] = useState({
                 name: '',
                 email: '',
@@ -93,7 +95,7 @@ export default function Contact() {
                 <div className="contactInfo">
                 <ul><a href="mailto:PaulRuszkay@gmail.com"> 📧 Email:  PaulRuszkay@gmail.com </a></ul>
                 <ul><a href="https://github.com/PaulRusz"> 📁 GitHub: github.com/PaulRusz </a></ul>
-                {/* <ul><img src={linkedInImage} className="linkedIn" alt="LinkedIn"></img><a href="https://www.linkedin.com/in/paul-ruszkay-a2ba075b/"> Linkedin - Paul Ruszkay </a></ul> */}
+                <ul><img src={linkedInImage} className={styles.linkedIn} alt="LinkedIn"></img><a href="https://www.linkedin.com/in/paul-ruszkay-a2ba075b/"> LinkedIn - Paul Ruszkay </a></ul>
                 </div>
     
             </div>
