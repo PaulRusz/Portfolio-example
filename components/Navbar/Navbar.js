@@ -13,7 +13,7 @@ export default function Navbar({ children }) {
     <nav className={styles.navbar}>
     <div>
         <Link href="/">
-            <p className={ `{styles.logo styles.logoButton} `} > PR </p>
+            <p className={ `${styles.logo} ${styles.logoButton} `} > PR </p>
         </Link>
       </div>
 
