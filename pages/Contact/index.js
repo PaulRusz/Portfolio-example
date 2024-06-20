@@ -28,6 +28,11 @@ export default function Contact() {
                 // Handle form validation errors
                 return;
             }
+
+            // try {
+            //     const response = await axios.post('http://_____________________my backend api url/contact' formData);
+            //     console.log(response.data) // Assuming the backend responds with a success message
+            //     setIsFormSubmitted(true)
     
             // Form data is valid, proceed with submission
             localStorage.setItem('formData', JSON.stringify(formData))
@@ -43,7 +48,8 @@ export default function Contact() {
             // Clear "Message sent!" text after a delay
             setTimeout(() => {
                 setIsFormSubmitted(false)
-            }, 3000)
+            }, 3000);
+        
     
             // Render the last submission to the page
             console.log(formData)
@@ -58,7 +64,7 @@ export default function Contact() {
             animate={{ opacity: 1, transition: { duration: 1 } }}
             exit={{ opacity: 0 }}
           >
-            
+
         <Navbar />
     
             <div className={styles.contactContainer}>
