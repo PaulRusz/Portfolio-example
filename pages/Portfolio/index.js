@@ -43,17 +43,23 @@ return (
         <div className={styles.divider2}></div>
         <div className={styles.projectDivider}>
         <ul>
-                <a href="hhttps://paulrusz.github.io/Group-Project1/" target="_blank" rel=""> Workout Tracker 1.0 <br></br>
+                <a className={styles.link} href="hhttps://paulrusz.github.io/Group-Project1/" target="_blank" rel=""> Workout Tracker 1.0 <br></br>
                 <Image src="/Workout1.0.png" alt="Workout App 1.0" width={600} height={300} /></a>
         </ul>
+        <p> Workout Tracker 1.0 is a web based application designed to help users plan, track, and manage their workouts</p>
+        <p> Workout Tracker 1.0 utilized html, css, JavaScript, Bootstrap, Day.js, WGER API, Quotable API </p>
+        <p> Refer to <a href="https://github.com/PaulRusz/Group-Project1">Workout Tracker 1.0 </a> GitHub for further on what I accomplished </p>
         </div>
 
         <div className={styles.divider2}></div>
         <div className={styles.projectDivider}>
         <ul>
-                <a href="https://workout-tracker-3b0i.onrender.com/" target="_blank" rel=""> Workout Tracker 2.0 <br></br>
+                <a className={styles.link} href="https://workout-tracker-3b0i.onrender.com/" target="_blank" rel=""> Workout Tracker 2.0 <br></br>
                 <Image src="/Workout2.png" alt="Workout App 2.0" width={600} height={300} /></a>
         </ul>
+        <p> Workout Tracker 2.0 is an improved version of 1.0 with new features including user authentication, improved workout planner, customizable plans, calendar integration, and a more responsive design </p>
+        <p> Workout Tracker 1.0 utilized html, css, JavaScript (with backend functionality and dynamic content generation), Bootstrap, Day.js, WGER API, Quotable API </p>
+        <p> Refer to <a href="https://github.com/emsim11/Group-Project2">Workout Tracker 2.0 </a> GitHub for further on what I accomplished </p>
         </div>
         
         <div className={styles.divider2}></div>
