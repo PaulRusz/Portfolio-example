@@ -83,7 +83,7 @@ export default function Contact() {
             <div className={styles.contactContainer}>
                 <h1>Contact Me</h1>
 
-                <div className='divider'></div>
+                <div className={styles.divider}></div>
 
                 <p> Have a question or want to get in touch? </p>
 

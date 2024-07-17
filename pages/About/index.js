@@ -39,7 +39,7 @@ export default function AboutMe() {
 
         <div className={styles.divider}></div>
 
-
+          <div className={styles.narrativeContainer}>
         <p>
           Hey there! I'm Paul. I was born in New Jersey but have called Delaware
           home for most of my life.
@@ -76,6 +76,7 @@ export default function AboutMe() {
           I'm sure there's much more to me than what's listed here, so don't
           hesitate to reach out if you'd like to learn more.
         </p>
+        </div>
       </div>
       </motion.div>
       )}

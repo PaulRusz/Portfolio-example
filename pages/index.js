@@ -9,7 +9,7 @@ export default function Home () {
     
     <div>
         <div> 
-        <script type="text/javascript"
+        {/* <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
         </script>
         <script type="text/javascript">
@@ -18,7 +18,7 @@ export default function Home () {
         publicKey: "7fbEPFKwQg92_gfOL",
          })
         })();
-        </script>
+        </script> */}
         </div>
          <Navbar />
     <div></div>

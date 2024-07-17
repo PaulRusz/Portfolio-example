@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import Image from 'next/image'
 
 
 export default function Portfolio() {
@@ -21,7 +22,19 @@ return (
     <div className={styles.portfolio}>
         <h1>Portfolio</h1>
         <div className={styles.divider}></div>
-        <p>Here are some of my projects:</p>
+        <h2 className={styles.header2}>Here are some of my projects:</h2>
+        <div className={styles.projectDivider}>
+        <ul>
+                <a className={styles.link} href="https://friendsblog.onrender.com/" target="_blank" rel=""> FriendsBlog <br></br>
+                <Image src="/FriendsBlog.png" alt="Friends Blog" width={600} height={300} />
+                </a>
+                
+        </ul>
+        <p> A social media / blogging platform where a user creates posts, search for other users, and view other user profiles. </p>
+        <p> FriendsBlog utilized React, Mongo DB Atlas, Apollo, graphSQL, Font-Awesome, NPM Packages, Vite Config.  </p>
+        <p>Refer to the <a href="Github: https://github.com/PaulRusz/FriendsBlog">FriendsBlog</a> GitHub for further on what I personally accomplished for this project.</p>
+        </div>
+        <div className={styles.divider2}></div>
         <ul>
                 <a href="https://github.com/PaulRusz/Personal-Note-Taker" target="_blank" rel=""> Personal Note App </a>
         </ul>
