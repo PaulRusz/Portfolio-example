@@ -21,7 +21,7 @@ export default function Navbar({ children }) {
         &#9776;
       </button>
 
-            <ul className={`${styles.links} ${showMenu ? 'show' : ''}`}>
+            <ul className={`${styles.links} ${showMenu ? styles.show : ''}`}>
             {/* <li><Link href="/" className={styles.links}>Home</Link></li> */}
                 <li><Link href="/About" className={styles.links}>About</Link></li>
                 <li><Link href="/Portfolio" className={styles.links}>Portfolio</Link> </li>

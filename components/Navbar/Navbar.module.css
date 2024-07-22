@@ -10,17 +10,17 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: 1px solid black;
     border-radius: 5px;
+    overflow: hidden; /* Ensure content stays within the navbar container */
 }
 
-.logo, .logoButton {
+.logo {
     color: white;
-    font-size: 3rem; 
-    font-weight: bolder; 
-    margin-right: auto;
-    margin-left: 10px; 
-    padding-left: 10px;
-    padding-right: 90px;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0 10px; /* Adjust margin values to control spacing */
+    padding: 1px 1px; /* Adjust padding values for the button size */
     background-color: transparent;
+    
 }
 
 .logo:hover {
