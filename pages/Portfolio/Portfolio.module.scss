@@ -57,25 +57,23 @@
 }
 
 .projectDivider {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
     border: 1px solid #06d9ff;
     border-radius: 10px;
     margin: 30px;
     padding: 15px;
 }
 
-.image-container {
-    max-width: 100%; /* Set maximum width to prevent images from overflowing */
-    max-height: 300px; /* Set maximum height for the images */
-    overflow: hidden; /* Hide any content that overflows the container */
-}
-
-.image-container img {
-    width: 50%; /* Ensure images fill the container width */
-    height: 50%; /* Maintain aspect ratio */
-}
 
 @media (max-width: 768px) {
     .projectDivider {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
         width: 90%; /* Adjust the width for better fit on smaller screens */
         margin: 15px; /* Reduce the margin for tighter spacing */
         padding: 10px; /* Adjust the padding for better layout */
@@ -87,5 +85,9 @@
 
     .fancyBullet {
         padding-left: 10px; /* Adjust the padding for better alignment */
+    }
+
+    .header2 {
+        text-align: center;
     }
 }

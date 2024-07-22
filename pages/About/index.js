@@ -35,11 +35,11 @@ export default function AboutMe() {
       <img src={currentImage} alt="Random Image" className={styles.image} />
       )}
 
-        <h1>A bit about me: </h1>
+        <h1 className={styles.h1}>A bit about me: </h1>
 
         <div className={styles.divider}></div>
 
-          <div className={styles.narrativeContainer}>
+        <div className={styles.narrativeContainer}>
         <p>
           Hey there! I'm Paul. I was born in New Jersey but have called Delaware
           home for most of my life.
