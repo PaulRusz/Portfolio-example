@@ -18,8 +18,21 @@
 
 .portfolio p {
     margin-bottom: 1px;
-
 }
+
+.fancyBullet {
+    list-style-type: none;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .fancyBullet:before {
+    content: "\2022";
+    color: #333333; 
+    font-size: 20px; 
+    // position: absolute;
+    // left: 0;
+  }
 
 .divider {
     width: 100%;
