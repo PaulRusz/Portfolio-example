@@ -23,10 +23,10 @@ export default function Navbar({ children }) {
 
             <ul className={`${styles.links} ${showMenu ? styles.show : ''}`}>
             {/* <li><Link href="/" className={styles.links}>Home</Link></li> */}
-                <li><Link href="/About" className={styles.links}>About</Link></li>
-                <li><Link href="/Portfolio" className={styles.links}>Portfolio</Link> </li>
-                <li><Link href="/Contact" className={styles.links}>Contact</Link></li>
-                <li><Link href="/Resume" className={styles.links}>Resume</Link></li>
+                <li><Link href="/about" className={styles.links}>About</Link></li>
+                <li><Link href="/portfolio" className={styles.links}>Portfolio</Link> </li>
+                <li><Link href="/contact" className={styles.links}>Contact</Link></li>
+                <li><Link href="/resume" className={styles.links}>Resume</Link></li>
             </ul>
         </nav>
     </div>

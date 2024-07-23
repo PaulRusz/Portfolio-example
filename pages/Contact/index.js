@@ -1,6 +1,6 @@
 import styles from './Contact.module.scss';
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar.js';
 import Footer from '../../components/Footer/Footer.js';
 import { motion } from 'framer-motion';
 import { useState, useRef } from 'react';
