@@ -16,8 +16,6 @@ export default function AboutMe() {
       setCurrentImage(images[randomIndex]);
     });
 
-
-
     return (
     
       // Code for 'fade in' transition
@@ -27,6 +25,8 @@ export default function AboutMe() {
     animate={{ opacity: 1, transition: { duration: 1 } }}
     exit={{ opacity: 0 }}
     >
+
+ 
 
     <Navbar />
 
@@ -48,7 +48,7 @@ export default function AboutMe() {
         <p>
           My collegiate journey took me to Newark, Delaware, and Nashville,
           Tennessee, where I earned a bachelor's degree in business. However, my
-          passion for technology led me down a different path.
+          passion for technology has now led me down a different path.
         </p>
         <p>
           In the past year, I embarked on a self-taught coding journey, delving
@@ -64,7 +64,7 @@ export default function AboutMe() {
         </p>
         <p>
           When I'm not immersed in work or coding projects, you can find me
-          staying active through workouts, exploring new destinations to
+          staying active by working out, exploring new destinations to
           experience the diverse cultures (and of course food), and spending
           some downtime outdoors.
         </p>
@@ -81,5 +81,6 @@ export default function AboutMe() {
       </div>
 
       <Footer />
+
       </motion.div>
       )}
