@@ -1,6 +1,7 @@
 import styles from './About.module.scss'
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer.js';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
@@ -78,5 +79,7 @@ export default function AboutMe() {
         </p>
         </div>
       </div>
+
+      <Footer />
       </motion.div>
       )}

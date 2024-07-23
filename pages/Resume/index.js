@@ -1,6 +1,7 @@
 import styles from './Resume.module.scss';
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer.js';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 
@@ -89,6 +90,7 @@ export default function Resume () {
             </div>
           </div>
         </div>
+        <Footer />
       </motion.div>
     );
   }

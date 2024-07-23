@@ -1,6 +1,7 @@
 import styles from './Portfolio.module.scss'
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer.js';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import Image from 'next/image'
@@ -86,6 +87,8 @@ return (
                 <a href="https://github.com/PaulRusz/project2" target="_blank" rel=""> Project 6</a>
         </ul>
     </div>
+
+    <Footer />
 
 </motion.div>
 )

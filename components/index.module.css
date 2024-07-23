@@ -1,0 +1,16 @@
+.homepageContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .homepageImage {
+    flex: 1;
+
+  }
+  
+  .homepageTextContainer {
+    flex: 1;
+    font-size: 25px;
+    text-align: right;
+    padding: 15px;
+  }
