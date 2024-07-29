@@ -54,6 +54,11 @@
     align-items: center;
     font-size: larger;
     padding-bottom: 10px;
+
+}
+
+.projectDivider:hover {
+    transform: scale(1.1);
 }
 
 .projectDivider {
@@ -67,6 +72,7 @@
     padding: 15px;
     background-color: #748d92;
     color: white;
+    transition: transform 0.3s ease;
 }
 
 
