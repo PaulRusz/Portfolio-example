@@ -26,13 +26,13 @@
 
   @media screen and (min-width: 769px) {
     .homepageContainer {
-        flex-direction: row; /* Display elements in a row on larger screens */
-        justify-content: center; /* Center elements horizontally */
+        flex-direction: row;
+        justify-content: center;
     }
 
     .homepageTextContainer {
-        flex: 1; /* Allow the text container to grow and take up remaining space */
-        text-align: right; /* Align text to the right on larger screens */
-        margin-top: 0; /* Remove top margin on larger screens */
+        flex: 1; 
+        text-align: right;
+        margin-top: 0;
     }
 }

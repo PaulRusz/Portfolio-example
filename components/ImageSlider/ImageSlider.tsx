@@ -105,5 +105,4 @@ export default function ImageSlider(): JSX.Element {
         </div>
       </div>
     );
-
 }

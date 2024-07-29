@@ -17,12 +17,12 @@
 
 @media screen and (max-width: 768px) {
     .sliderContainer {
-        width: 100%; /* Adjust the width for mobile devices */
-        height: auto; /* Set height to auto for responsiveness */
+        width: 100%;
+        height: auto;
     }
 
     .sliderImage {
-        max-height: 300px; /* Adjust the max-height for mobile devices */
-        max-width: 300px; /* Adjust the max-width for mobile devices */
+        max-height: 300px;
+        max-width: 300px;
     }
 }

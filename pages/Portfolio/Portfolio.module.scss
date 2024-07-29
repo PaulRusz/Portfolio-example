@@ -64,8 +64,8 @@
 .projectDivider {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
+    align-items: center;
+    justify-content: center;
     border: 1px solid #124e66;
     border-radius: 10px;
     margin: 30px;
@@ -83,17 +83,17 @@
         flex-direction: column;
         align-items: center; 
         justify-content: center;
-        width: 90%; /* Adjust the width for better fit on smaller screens */
-        margin: 15px; /* Reduce the margin for tighter spacing */
-        padding: 10px; /* Adjust the padding for better layout */
+        width: 90%; 
+        margin: 15px; 
+        padding: 10px; 
     }
 
     .link {
-        font-size: medium; /* Adjust the font size for better readability on mobile */
+        font-size: medium;
     }
 
     .fancyBullet {
-        padding-left: 10px; /* Adjust the padding for better alignment */
+        padding-left: 10px;
     }
 
     .header2 {
