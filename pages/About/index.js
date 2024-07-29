@@ -42,7 +42,7 @@ export default function AboutMe() {
 
         <div className={styles.narrativeContainer}>
         <p>
-          Hey there! I'm Paul. I was born in New Jersey but have called Delaware
+          Born in New Jersey but have called Delaware
           home for most of my life.
         </p>
         <p>
@@ -65,12 +65,11 @@ export default function AboutMe() {
         <p>
           When I'm not immersed in work or coding projects, you can find me
           staying active by working out, exploring new destinations to
-          experience the diverse cultures (and of course food), and spending
+          experience diverse cultures (and of course food), and spending
           some downtime outdoors.
         </p>
         <p>
-          I also spend my time diving into captivating reads (preferably a
-          series), looking for newly released music, and always searching for
+          I also spend my time diving into captivating reads, looking for newly released music, or searching for
           the best lasagna the East Coast has to offer.
         </p>
         <p>
