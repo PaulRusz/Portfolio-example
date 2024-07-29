@@ -5,6 +5,7 @@ import Footer from '../components/Footer/Footer.js';
 import Link from 'next/link'
 import emailjs from '@emailjs/browser';
 import styles from '../components/index.module.css'
+import ImageSlider from '../components/ImageSlider/ImageSlider.tsx'
 
 export default function Home () {
   return (
@@ -27,8 +28,13 @@ export default function Home () {
 
     <div className={styles.homepageContainer}>
 
-        <div className={styles.homepageImage}>
-
+        <div className={styles.homepageSlideShow}>
+        <title>Image Slider</title>
+        <meta name="description" content="Image slider example with Next.js, Tailwind CSS, and TypeScript" />
+        <link rel="icon" href="/favicon.ico" />
+      <main className="flex min-h-screen flex-col items-center justify-center py-2">
+        <ImageSlider />
+        </main>
         </div>
 
         <div className={styles.homepageTextContainer}>
