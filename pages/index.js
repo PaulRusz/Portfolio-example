@@ -32,17 +32,21 @@ export default function Home () {
         <title>Image Slider</title>
         <meta name="description" content="Image slider example with Next.js, Tailwind CSS, and TypeScript" />
         <link rel="icon" href="/favicon.ico" />
+
       <main className="flex min-h-screen flex-col items-center justify-center py-2">
         <ImageSlider />
         </main>
         </div>
 
         <div className={styles.homepageTextContainer}>
+          <h1>Hey, I'm Paul!
+          </h1>
+          <div className={styles.divider3}></div>
             <p className={styles.homepageText}>
-                Hey there, I'm Paul!
-                <br></br>
+              
+                {/* <br></br>
                 I'm fascinated with solving complex problems, learning new things, and creating projects.
-                <br></br>
+                <br></br> */}
                 Take a look around.
             </p>
         </div>
