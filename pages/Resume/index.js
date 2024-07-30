@@ -28,8 +28,24 @@ export default function Resume () {
             >
               Download my CV
             </a>
-            <h2>Summary</h2>
-            <p>Background:</p>
+            {/* <h2>Summary</h2> */}
+
+            <div className={styles.backgroundContainer}>
+            {/* <h3>Background:</h3> */}
+
+                <p>
+                  With a strong foundation in front-end and back-end development, I strive to deliver seamless and engaging digital experiences. 
+                  <div className={styles.divider3}></div>
+                  My ultimate goal is to continue honing my skills, collaborating with talented individuals, and contributing to cutting-edge projects that make a positive impact on society. 
+                  <br></br>
+                  <br></br>
+                  <div className={styles.divider3}></div>
+                  </p>
+                  <h2>
+                  Let's build something.
+                  </h2>
+
+            </div>
           </div>
   
           <div className={styles.divider2}></div>

@@ -79,6 +79,9 @@ return (
         <p className={styles.fancyBullet}> Refer to <a href="https://github.com/emsim11/Group-Project2">Workout Tracker 2.0 </a> GitHub for further on what I accomplished. </p>
         </div>
         
+        {/* 
+                SPACE FOR FUTURE PROJECTS TO GO HERE
+
         <div className={styles.divider2}></div>
         <ul>
                 <a href="https://github.com/PaulRusz/project2" target="_blank" rel=""> Project 4</a>
@@ -90,7 +93,7 @@ return (
         <div className={styles.divider2}></div>
         <ul>
                 <a href="https://github.com/PaulRusz/project2" target="_blank" rel=""> Project 6</a>
-        </ul>
+        </ul> */}
     </div>
 
     <Footer />

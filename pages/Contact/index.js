@@ -86,12 +86,14 @@ export default function Contact() {
 
                 <div className={styles.divider}></div>
 
+                <div className={styles.contactTextContainer}>
                 <p> Have a question or want to get in touch? </p>
 
                 <p> Feel free to reach out! </p>
                 <p>
                     Fill out the form below, email me, or checkout one of the links below.
                 </p>
+                </div>
 
                 <form className={styles.contactForm} ref={form}>
                     {isFormSubmitted && (

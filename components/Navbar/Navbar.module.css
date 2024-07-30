@@ -1,12 +1,16 @@
 .navbar {
-    background: #748D92; 
+    /* background-color: #182b3a;
+    background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%); */
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 1px solid black;
+    box-shadow: -4px 0 4px rgba(0, 0, 0, 0.1);
+    border-top: .5px solid black;
+    border-left: .5px solid transparent;
+    border-right: .5px solid transparent;
+    border-bottom: none;
     border-radius: 5px;
     overflow: hidden;
     transition: height 0.3s;
@@ -20,8 +24,8 @@
     color: white;
     font-size: 2rem;
     font-weight: bolder;
-    margin: 0 10px; 
-    padding: 1px 1px; 
+    margin: 0 10px;
+    padding: 1px 1px;
     background-color: transparent;
 }
 
@@ -35,13 +39,13 @@
 
 .links {
     width: 130px;
-    flex: 1; 
+    flex: 1;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     font-weight: 300;
     list-style-type: none;
     padding: 0;
-    margin: 0;    
+    margin: 0;
 }
 
 .navbar a {
@@ -50,11 +54,11 @@
     margin: 5px;
     line-height: 3;
     text-decoration: none;
-    border-radius: 10px; 
+    border-radius: 10px;
     transition: background-color 0.3s, transform 0.2s;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 15px;
@@ -62,35 +66,31 @@
 }
 
 .navbar a:hover {
-    color: black; 
+    color: black;
     background-color: #99efff;
     transform: translateY(-5px);
 }
 
 .hamburgerMenu {
-    display: none; 
+    display: none;
 }
 
 .showMenu {
     display: flex;
-
 }
 
 @media (max-width: 768px) {
     .hamburgerMenu {
-        display: block; 
+        display: block;
         font-size: 1.5rem;
         background: none;
         border: none;
         cursor: pointer;
-
     }
 
     .links {
         display: none;
-        flex-direction: column; 
-        /* position: relative; */
-        /* top: 70px;  */
+        flex-direction: column;
         height: 40px;
         width: 50%;
         text-align: center;
@@ -106,7 +106,6 @@
         display: block;
     }
 }
-
 
 
 /*  
