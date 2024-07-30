@@ -31,27 +31,27 @@ export default function AboutMe() {
     <Navbar />
 
     <div className={styles.aboutMeContainer}>
+    <h1 className={styles.h1}>A Bit About Me: </h1>
 
     {currentImage && (
       <img src={currentImage} alt="Random Image" className={styles.image} />
       )}
-
-        <h1 className={styles.h1}>A bit about me: </h1>
 
         <div className={styles.divider}></div>
 
         <div className={styles.narrativeContainer}>
         <p>
           Born in New Jersey but have called Delaware
-          home for most of my life.
+          home for a majority of my life.
         </p>
+        <div className={styles.divider3}></div>
         <p>
           My collegiate journey took me to Newark, Delaware, and Nashville,
           Tennessee, where I earned a bachelor's degree in business. However, my
           passion for technology has now led me down a different path.
         </p>
         <p>
-          In the past year, I embarked on a self-taught coding journey, delving
+          Over time, I embarked on a self-taught coding journey, delving
           into the intricacies of programming. This newfound interest inspired
           me to enroll in a full stack development course at Columbia
           University.
@@ -62,6 +62,7 @@ export default function AboutMe() {
           I'm excited about the possibilities that lie ahead as I continue to
           grow in this dynamic field.
         </p>
+        <div className={styles.divider3}></div>
         <p>
           When I'm not immersed in work or coding projects, you can find me
           staying active by working out, exploring new destinations to
