@@ -93,6 +93,7 @@ export default function Contact() {
                 <p>
                     Fill out the form below, email me, or checkout one of the links below.
                 </p>
+                <div className={styles.divider3}></div>
                 </div>
 
                 <form className={styles.contactForm} ref={form}>
