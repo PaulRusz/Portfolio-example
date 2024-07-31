@@ -15,19 +15,19 @@ module.exports = {
         return [
             {
                 source: '/about',
-                destination: '/pages/about/index',
+                destination: '/pages/about/index.js',
             },
             {
                 source: '/contact',
-                destination: '/pages/contact/index',
+                destination: '/pages/contact/index.js',
             },
             {
                 source: '/portfolio',
-                destination: '/pages/portfolio/index',
+                destination: '/pages/portfolio/index.js',
             },
             {
                 source: '/resume',
-                destination: '/pages/resume/index',
+                destination: '/pages/resume/index.js',
             }
         ]
     }
