@@ -2,7 +2,7 @@ import '../styles/global.scss'
 import Navbar from '../components/Navbar/Navbar.js'
 import Footer from '../components/Footer/Footer.js';
 import About from '../pages/about/index.js'
-import About from '../pages/about/index.js'
+import Contact from '../pages/contact/index.js'
 
 
 export default function App ({ Component, pageProps }) {
