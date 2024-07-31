@@ -53,17 +53,16 @@ export default function Home () {
         </div>
 
         <div className={styles.homepageSlideShow2}>
-        <title>Image Slider</title>
-        <meta name="description" content="Image slider example with Next.js, Tailwind CSS, and TypeScript" />
-        <link rel="icon" href="/favicon.ico" />
+          <title>Image Slider</title>
+          <meta name="description" content="Image slider example with Next.js, Tailwind CSS, and TypeScript" />
+          <link rel="icon" href="/favicon.ico" />
 
-      <main className="flex min-h-screen flex-col items-center justify-center py-2">
-        <ImageSlider2 />
-        </main>
+          <main className="flex min-h-screen flex-col items-center justify-center py-2">
+          <ImageSlider2 />
+          </main>
         </div>
 
     </div>
-    <div></div>
 
     <Footer />
     </div>
