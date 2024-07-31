@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
 
-export default function AboutMe() {
+export default function About() {
 
     const [currentImage, setCurrentImage] = useState(null);
   

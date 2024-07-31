@@ -25,7 +25,6 @@ export default function Home () {
         })();
         </script> */}
         </div>
-    <Navbar />
 
     <div className={styles.homepageContainer}>
 
@@ -64,7 +63,6 @@ export default function Home () {
 
     </div>
 
-    <Footer />
     </div>
   )
 }
