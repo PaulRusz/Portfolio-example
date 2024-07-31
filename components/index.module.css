@@ -10,10 +10,16 @@
   }
   
   .homepageSlideShow {
-    margin: 0 auto;
     position: relative;
     border-radius: 15px;
     margin: 20px;
+  }
+
+  .homepageSlideShow2 {
+    margin-top: 25%;
+    position: relative;
+    border-radius: 25px;
+    /* margin: 25px; */
   }
   
   .homepageTextContainer {
@@ -22,7 +28,7 @@
     text-align: center;
     padding: 15px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     /* background-color: #D3D9D4; */
     /* border: 1px solid #124e66;
     border-radius: 15px; */
@@ -63,5 +69,15 @@
         flex: 1; 
         text-align: right;
         margin-top: 0;
+    }
+
+    .sliderContainer2 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .sliderImage2 {
+      max-height: 300px;
+      max-width: 300px;
     }
 }

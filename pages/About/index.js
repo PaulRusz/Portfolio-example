@@ -41,8 +41,7 @@ export default function AboutMe() {
 
         <div className={styles.narrativeContainer}>
         <p>
-          Born in New Jersey but have called Delaware
-          home for a majority of my life.
+          Born in New Jersey but have call Delaware home.
         </p>
         <div className={styles.divider3}></div>
         <p>

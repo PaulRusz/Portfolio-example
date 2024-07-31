@@ -6,6 +6,7 @@ import Link from 'next/link'
 import emailjs from '@emailjs/browser';
 import styles from '../components/index.module.css'
 import ImageSlider from '../components/ImageSlider/ImageSlider.tsx'
+import ImageSlider2 from '../components/ImageSlider/ImageSlider2.tsx'
 
 export default function Home () {
   return (
@@ -49,6 +50,16 @@ export default function Home () {
                 <br></br> */}
                 Take a look around.
             </p>
+        </div>
+
+        <div className={styles.homepageSlideShow2}>
+        <title>Image Slider</title>
+        <meta name="description" content="Image slider example with Next.js, Tailwind CSS, and TypeScript" />
+        <link rel="icon" href="/favicon.ico" />
+
+      <main className="flex min-h-screen flex-col items-center justify-center py-2">
+        <ImageSlider2 />
+        </main>
         </div>
 
     </div>
