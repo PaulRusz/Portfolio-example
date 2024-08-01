@@ -26,10 +26,6 @@ export default function About() {
     exit={{ opacity: 0 }}
     >
 
- 
-
-    <Navbar />
-
     <div className={styles.aboutMeContainer}>
     <h1 className={styles.h1}>A Bit About Me: </h1>
 
@@ -78,8 +74,6 @@ export default function About() {
         </p>
         </div>
       </div>
-
-      <Footer />
 
       </motion.div>
       )}

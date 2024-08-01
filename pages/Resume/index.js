@@ -15,7 +15,6 @@ export default function Resume () {
         exit={{ opacity: 0 }}
       >
 
-        <Navbar />
 
         <div className={styles.resumeContainer}>
           <h1>Resume</h1>
@@ -106,7 +105,7 @@ export default function Resume () {
             </div>
           </div>
         </div>
-        <Footer />
+
       </motion.div>
     );
   }

@@ -18,8 +18,6 @@ return (
     exit={{ opacity: 0 }}
   >
 
-    <Navbar />
-
     <div className={styles.portfolio}>
         <h1>Portfolio</h1>
         <div className={styles.divider}></div>
@@ -98,8 +96,6 @@ return (
                 <a href="https://github.com/PaulRusz/project2" target="_blank" rel=""> Project 6</a>
         </ul> */}
     </div>
-
-    <Footer />
 
 </motion.div>
 )

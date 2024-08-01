@@ -79,7 +79,6 @@ export default function Contact() {
             animate={{ opacity: 1, transition: { duration: 1 } }}
             exit={{ opacity: 0 }}
         >
-            <Navbar />
 
             <div className={styles.contactContainer}>
                 <h1>Contact Me</h1>
@@ -121,7 +120,6 @@ export default function Contact() {
                     <ul><img src={linkedInImage} className={styles.linkedIn} alt="LinkedIn"></img><a href="https://www.linkedin.com/in/paul-ruszkay-a2ba075b/"> LinkedIn - Paul Ruszkay </a></ul>
                 </div>
             </div>
-            <Footer />
         </motion.div>
     );
 }
