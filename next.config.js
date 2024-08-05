@@ -11,7 +11,10 @@
 
 
 module.exports = {
-
+    experimental: {
+        // Enables TypeScript support
+        externalDir: true,
+      },
 };
 
     // async rewrites() {
