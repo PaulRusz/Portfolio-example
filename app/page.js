@@ -1,12 +1,12 @@
 import React from 'react'
 // import About from './about/index.js'
-import Navbar from '../components/Navbar/Navbar.js';
-import Footer from '../components/Footer/Footer.js';
+import Navbar from './components/Navbar/Navbar.js';
+import Footer from './components/Footer/Footer.js';
 import Link from 'next/link'
 import emailjs from '@emailjs/browser';
 import styles from '../components/index.module.css'
-import ImageSlider from '../components/ImageSlider/ImageSlider.tsx'
-import ImageSlider2 from '../components/ImageSlider/ImageSlider2.tsx'
+import ImageSlider from './components/ImageSlider/ImageSlider.tsx'
+import ImageSlider2 from './components/ImageSlider/ImageSlider2.tsx'
 import Layout from './Layout.js';
 
 export default function Home () {
