@@ -1,6 +1,7 @@
 import '../styles/global.scss'
 import Navbar from '../components/Navbar/Navbar.js'
 import Footer from '../components/Footer/Footer.js';
+import Layout from './Layout.js'
 
 
 export default function App ({ Component, pageProps }) {
@@ -12,10 +13,12 @@ export default function App ({ Component, pageProps }) {
         { name: "Portfolio", path: "/portfolio" }
     ];
     return (
+    <Layout>
     <div>
         <Navbar routes={routes}/>
         <Component {...pageProps} />
         <Footer />
     </div>
+    </Layout>
     )
 }
