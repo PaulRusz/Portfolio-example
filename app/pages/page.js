@@ -7,9 +7,12 @@ import emailjs from '@emailjs/browser';
 import styles from '../components/index.module.css'
 import ImageSlider from '../components/ImageSlider/ImageSlider.tsx'
 import ImageSlider2 from '../components/ImageSlider/ImageSlider2.tsx'
+import Layout from '../components/Layout.js';
 
 export default function Home () {
   return (
+
+    <Layout>
     
     <div>
         <div> 
@@ -64,5 +67,6 @@ export default function Home () {
     </div>
 
     </div>
+  </Layout>
   )
 }
